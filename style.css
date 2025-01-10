@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", serif;
+}
+.banner {
+  width: 1280px;
+  height: 560px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.banner-content b {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.banner-content h2 {
+  color: rgb(14, 14, 14);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  margin-top: 16px;
+}
+
+.banner-content button {
+  width: 270px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  margin-top: 25px;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.banner-content button:hover {
+  color: black;
+  border-radius: 0;
+}
+
+.banner-img img {
+  width: 100%;
+}
