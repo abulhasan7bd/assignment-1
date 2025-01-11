@@ -1,2 +1,11 @@
-repository link - ->  https://github.com/abulhasan7bd/assignment-1
-github live link - -> https://abulhasan7bd.github.io/assignment-1
+repository link  - ->  https://github.com/abulhasan7bd/assignment-1
+github live link - ->  https://abulhasan7bd.github.io/assignment-1
+
+How to add README.md file my project ?
+step 1      : touch README.md
+step 2      : echo "# My Project Title" > README.md
+step 3      : git add README.md
+step 4      : git commit -m "Add README.md file"
+step 5      : git push origin main
+ 
+ 
