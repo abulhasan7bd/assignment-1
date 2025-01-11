@@ -274,9 +274,9 @@ body {
 .donner-btns button {
   width: fit-content;
   height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 16px;
   color: rgba(14, 14, 14, 0.8);
   font-size: 40px;
@@ -289,6 +289,14 @@ align-items: center;
   border-radius: 16px;
   background: rgb(255, 255, 255);
   text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.donner-btns button:nth-child(2) {
+  background-color: rgb(198, 228, 214);
+}
+.donner-btns button:hover {
+  background-color: rgb(198, 228, 214);
 }
 .donate input {
   width: 100%;
@@ -319,6 +327,82 @@ align-items: center;
   transition: 0.4s linear;
   margin-top: 20px;
 }
+
 .donate1:hover {
   color: black;
+}
+
+.subscribtion {
+  width: 1280px;
+  height: 395px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  margin: 0 auto 7rem;
+}
+.subscribtion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribtion-content h2 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subscribtion-content p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  margin-top: 24px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+}
+.subcribe-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+.subcribe-input input {
+  width: 600px;
+  height: 55px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  padding: 0 40px;
+}
+.subcribe-input button {
+  width: 150px;
+  height: 56px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.subcribe-input button:hover{
+  color: black;
+}
+.subcribe-input input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+}
+.subscribtion-content p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+ 
 }
