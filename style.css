@@ -94,6 +94,37 @@ nav button:hover {
   width: 100%;
 }
 
+/* bd piller  */
+.bd-piller {
+  width: 1280px;
+  height: fit-content;
+  margin: 4rem auto;
+}
+.bd-piller h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.bd-piller .piller-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 26px;
+  justify-content: center;
+  align-items: center;
+}
+.bd-piller .p-card {
+  width: 320px;
+  height: 244px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 28px;
+}
+.bd-piller .p-card h4{
+  margin: 17px 0;
+}
 /* feature style  */
 .feature {
   width: 1280px;
@@ -236,7 +267,8 @@ nav button:hover {
 .openion table thead tr {
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: rgb(198, 228, 214);
-  height: 72px; border: 1px solid rgba(14, 14, 14, 0.15);
+  height: 72px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
   color: rgb(14, 14, 14);
   font-size: 16px;
   font-weight: 600;
