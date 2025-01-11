@@ -15,7 +15,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 25px auto;
+  margin: 20px auto;
 }
 nav button {
   width: 116px;
@@ -35,6 +35,7 @@ nav button {
 nav h1 {
   font-size: 32px;
   font-weight: 600;
+  opacity: 0.4;
 }
 nav button:hover {
   background-color: white;
@@ -94,7 +95,7 @@ nav button:hover {
   width: 100%;
 }
 
-/* bd piller  */
+/* bd piller style */
 .bd-piller {
   width: 1280px;
   height: fit-content;
@@ -136,6 +137,7 @@ nav button:hover {
   color: rgb(14, 14, 14);
   font-size: 40px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .feature p {
@@ -597,4 +599,8 @@ footer .footer-btns {
   justify-content: center;
   align-items: center;
   gap: 26px;
+}
+
+.footer-btns img{
+  cursor: pointer;
 }
